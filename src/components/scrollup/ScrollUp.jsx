@@ -10,7 +10,7 @@ const ScrollUp = () => {
     });
   
     return (
-    <a href="#" className="scrollup"><HiOutlineArrowSmUp className="scrollup__icon"/></a>
+    <a href="https://gurtegsingh.netlify.app" className="scrollup"><HiOutlineArrowSmUp className="scrollup__icon"/></a>
   );
 }
 
