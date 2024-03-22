@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './header.css';
-import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
+import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
 
 
 const Header = () => {
@@ -37,7 +37,7 @@ const Header = () => {
     
         // Update the active link based on the closest section
         var navLinks = document.querySelectorAll('ul li a');
-        for (var i = 0; i < navLinks.length; i++) {
+        for (var j = 0; j < navLinks.length; j++) {
             navLinks[i].classList.remove('active-link');
         }
         navLinks[closestIndex].classList.add('active-link');
