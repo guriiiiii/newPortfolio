@@ -38,7 +38,7 @@ const Header = () => {
         // Update the active link based on the closest section
         var navLinks = document.querySelectorAll('ul li a');
         for (var j = 0; j < navLinks.length; j++) {
-            navLinks[i].classList.remove('active-link');
+            navLinks[j].classList.remove('active-link');
         }
         navLinks[closestIndex].classList.add('active-link');
     });
