@@ -1,0 +1,20 @@
+import React from "react";
+import { FiInstagram, FiGithub, FiLinkedin} from "react-icons/fi";
+
+const Social = () => {
+    return (
+        <div className="home__social">
+            <a href="https://www.instagram.com/gurteg._singh?igsh=MTc0MXl5eGhkeWYxdA%3D%3D&utm_source=qr" className="home__social-icon" target="_blank" rel="noreferrer">
+                    <FiInstagram />
+                </a>
+                <a href="https://www.github.com/guriiiiii" className="home__social-icon" target="_blank" rel="noreferrer">
+                    <FiGithub />
+                </a>
+                <a href="https://www.linkedin.com/in/gurteg-s1ngh/" className="home__social-icon" target="_blank" rel="noreferrer" >
+                    <FiLinkedin />
+                </a>   
+        </div> 
+    ); 
+}
+
+export default Social;
